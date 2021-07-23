@@ -1,7 +1,7 @@
 
 import { createWebHistory, createRouter } from "vue-router";
 import HelloWorld from '@/components/HelloWorld'
-import ChooseLocation from '@/components/ChooseLocation'
+import LocationPicker from '@/components/LocationPicker'
 
 const routes = [
     {
@@ -12,7 +12,7 @@ const routes = [
     {
       path: "/location",
       name: "Location",
-      component: ChooseLocation,
+      component: LocationPicker,
     },
 ];
   
