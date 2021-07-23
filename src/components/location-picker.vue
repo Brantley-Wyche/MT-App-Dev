@@ -10,11 +10,13 @@
         <h2>
             Buffalo, New York
         </h2>
+          <img class ="ny-image" alt="New York" src="./assets/ny.png">
         </div> <!-- end of buffalo -->
         <div id="delaware-name">
         <h2>
             Wilmington, Delaware
         </h2>
+          <img class = "delaware-image" alt="Delware" src="./assets/delaware.png">
         </div> <!-- end of delaware -->
     </div> <!-- end of location name div -->
     </div> <!-- end of body div-->
@@ -40,6 +42,17 @@
 }
 
 #buffalo-name{
+    margin-left: 200px;
     float: left;
+}
+
+#delaware-name{
+    float: right;
+    margin-right: 200px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 2em;
 }
 </style>
