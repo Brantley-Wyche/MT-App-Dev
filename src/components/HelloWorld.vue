@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
-    <!--<h1>{{ msg }}</h1>-->
+    <img alt="Vue logo" src="../assets/green-logo.png">
     
     <div class="square">
       <div class="content">
-        <h1>{{ msg }}</h1>
+        <h1>Please Login</h1>
         <div class="fields">
           <input type="text" placeholder="Enter LanID here" />
         </div>
@@ -13,7 +13,7 @@
           <input type="text" placeholder="Enter password here" />
         </div>
         
-        <button class="login_button">Login</button>
+        <button class="login_button"><router-link to="/location">Login</router-link></button>
       </div>
       
     </div>
@@ -23,9 +23,6 @@
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  }
 }
 </script>
 
@@ -81,6 +78,6 @@ input{
   font-size: 20px;
   background-color: #007955;
   color: white;
-  border: 3px solid #FFD03E;
+  border: 1px solid #FFD03E;
 }
 </style>

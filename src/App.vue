@@ -1,16 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/green-logo.png">
-  <HelloWorld msg="Sign In to Continue"/>
+  <div id="app">
+     <router-link to="/location">Location</router-link>
+    
+  </div>
+  <router-view/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
