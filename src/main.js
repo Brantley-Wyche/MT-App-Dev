@@ -1,7 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount('#app')
+
 //API CALL FOR GOOGLE MAPS
 /*async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPALFxbqB_W-JIppkis_peB-hxb6VLjxw&callback=initMap"
   type="text/javascript"*/
